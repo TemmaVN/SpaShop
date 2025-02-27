@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.TenDangNhapTb = new System.Windows.Forms.TextBox();
             this.TenDangNhaplb = new System.Windows.Forms.Label();
+            this.TenDangNhapTb = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.MatKhaulb = new System.Windows.Forms.Label();
             this.MatKhauTb = new System.Windows.Forms.TextBox();
             this.DangNhapBT = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.ThoatBT = new System.Windows.Forms.Button();
-            this.NhoKhonglb = new System.Windows.Forms.Label();
             this.TimMKLb = new System.Windows.Forms.Label();
+            this.NhoKhonglb = new System.Windows.Forms.Label();
+            this.ThoatBT = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -51,22 +51,11 @@
             this.panel1.Controls.Add(this.TenDangNhaplb);
             this.panel1.Controls.Add(this.TenDangNhapTb);
             this.panel1.Location = new System.Drawing.Point(149, 111);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(467, 102);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // TenDangNhapTb
-            // 
-            this.TenDangNhapTb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TenDangNhapTb.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TenDangNhapTb.Location = new System.Drawing.Point(19, 50);
-            this.TenDangNhapTb.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.TenDangNhapTb.Name = "TenDangNhapTb";
-            this.TenDangNhapTb.Size = new System.Drawing.Size(437, 29);
-            this.TenDangNhapTb.TabIndex = 0;
-            this.TenDangNhapTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // TenDangNhaplb
             // 
@@ -80,6 +69,17 @@
             this.TenDangNhaplb.TabIndex = 1;
             this.TenDangNhaplb.Text = "Tên đăng nhập";
             this.TenDangNhaplb.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // TenDangNhapTb
+            // 
+            this.TenDangNhapTb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TenDangNhapTb.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TenDangNhapTb.Location = new System.Drawing.Point(19, 50);
+            this.TenDangNhapTb.Margin = new System.Windows.Forms.Padding(5);
+            this.TenDangNhapTb.Name = "TenDangNhapTb";
+            this.TenDangNhapTb.Size = new System.Drawing.Size(437, 29);
+            this.TenDangNhapTb.TabIndex = 0;
+            this.TenDangNhapTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panel2
             // 
@@ -137,15 +137,15 @@
             this.panel3.Size = new System.Drawing.Size(467, 102);
             this.panel3.TabIndex = 4;
             // 
-            // ThoatBT
+            // TimMKLb
             // 
-            this.ThoatBT.Location = new System.Drawing.Point(281, 3);
-            this.ThoatBT.Name = "ThoatBT";
-            this.ThoatBT.Size = new System.Drawing.Size(122, 47);
-            this.ThoatBT.TabIndex = 5;
-            this.ThoatBT.Text = "Thoát";
-            this.ThoatBT.UseVisualStyleBackColor = true;
-            this.ThoatBT.Click += new System.EventHandler(this.ThoatBT_Click);
+            this.TimMKLb.AutoSize = true;
+            this.TimMKLb.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimMKLb.Location = new System.Drawing.Point(277, 67);
+            this.TimMKLb.Name = "TimMKLb";
+            this.TimMKLb.Size = new System.Drawing.Size(114, 21);
+            this.TimMKLb.TabIndex = 8;
+            this.TimMKLb.Text = "Tìm mật khẩu";
             // 
             // NhoKhonglb
             // 
@@ -156,15 +156,15 @@
             this.NhoKhonglb.TabIndex = 6;
             this.NhoKhonglb.Text = "Nếu bạn không nhớ mật khẩu :";
             // 
-            // TimMKLb
+            // ThoatBT
             // 
-            this.TimMKLb.AutoSize = true;
-            this.TimMKLb.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimMKLb.Location = new System.Drawing.Point(277, 67);
-            this.TimMKLb.Name = "TimMKLb";
-            this.TimMKLb.Size = new System.Drawing.Size(114, 21);
-            this.TimMKLb.TabIndex = 8;
-            this.TimMKLb.Text = "Tìm mật khẩu";
+            this.ThoatBT.Location = new System.Drawing.Point(281, 3);
+            this.ThoatBT.Name = "ThoatBT";
+            this.ThoatBT.Size = new System.Drawing.Size(122, 47);
+            this.ThoatBT.TabIndex = 5;
+            this.ThoatBT.Text = "Thoát";
+            this.ThoatBT.UseVisualStyleBackColor = true;
+            this.ThoatBT.Click += new System.EventHandler(this.ThoatBT_Click);
             // 
             // LoginForm
             // 
@@ -182,6 +182,7 @@
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

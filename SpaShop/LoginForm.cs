@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SpaShop.Entity;
 
 namespace SpaShop
 {
@@ -35,7 +36,17 @@ namespace SpaShop
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (TenDangNhapTb.Text == "TemmaVN" && MatKhauTb.Text == "Khoitoc123")
+            {
+                QuanLi quanLi = new QuanLi();
+                this.Hide();
+                quanLi.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Nhập sai tên đăng nhập hoặc mật khẩu!!");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -45,22 +56,19 @@ namespace SpaShop
 
         private void ThoatBT_Click(object sender, EventArgs e)
         {
-
+            DialogResult result = MessageBox.Show("Bạn có chắc muốn thoát không?",
+                                          "Xác nhận thoát",
+                                          MessageBoxButtons.YesNo,
+                                          MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
-        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        private void LoginForm_Load(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show(
-                "Bạn có chắc chắn muốn thoát không?",
-                "Xác nhận thoát",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question
-            );
 
-            if (result == DialogResult.No)
-            {
-                e.Cancel = true; // Hủy sự kiện đóng form nếu chọn "Không"
-            }
         }
     }
 }

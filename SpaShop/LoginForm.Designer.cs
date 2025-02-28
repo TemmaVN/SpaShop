@@ -37,7 +37,6 @@
             this.MatKhauTb = new System.Windows.Forms.TextBox();
             this.DangNhapBT = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.TimMKLb = new System.Windows.Forms.Label();
             this.NhoKhonglb = new System.Windows.Forms.Label();
             this.ThoatBT = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -127,7 +126,6 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.TimMKLb);
             this.panel3.Controls.Add(this.NhoKhonglb);
             this.panel3.Controls.Add(this.ThoatBT);
             this.panel3.Controls.Add(this.DangNhapBT);
@@ -137,24 +135,14 @@
             this.panel3.Size = new System.Drawing.Size(467, 102);
             this.panel3.TabIndex = 4;
             // 
-            // TimMKLb
-            // 
-            this.TimMKLb.AutoSize = true;
-            this.TimMKLb.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimMKLb.Location = new System.Drawing.Point(277, 67);
-            this.TimMKLb.Name = "TimMKLb";
-            this.TimMKLb.Size = new System.Drawing.Size(114, 21);
-            this.TimMKLb.TabIndex = 8;
-            this.TimMKLb.Text = "Tìm mật khẩu";
-            // 
             // NhoKhonglb
             // 
             this.NhoKhonglb.AutoSize = true;
             this.NhoKhonglb.Location = new System.Drawing.Point(34, 67);
             this.NhoKhonglb.Name = "NhoKhonglb";
-            this.NhoKhonglb.Size = new System.Drawing.Size(237, 21);
+            this.NhoKhonglb.Size = new System.Drawing.Size(217, 21);
             this.NhoKhonglb.TabIndex = 6;
-            this.NhoKhonglb.Text = "Nếu bạn không nhớ mật khẩu :";
+            this.NhoKhonglb.Text = "Quên mật khẩu đăng nhập ?";
             // 
             // ThoatBT
             // 
@@ -204,7 +192,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button ThoatBT;
         private System.Windows.Forms.Label NhoKhonglb;
-        private System.Windows.Forms.Label TimMKLb;
     }
 }
 

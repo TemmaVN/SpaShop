@@ -58,6 +58,12 @@
     <Compile Include="Entity\Quanli\LichHen.Designer.cs">
       <DependentUpon>LichHen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entity\Quanli\ThuNgan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entity\Quanli\ThuNgan.Designer.cs">
+      <DependentUpon>ThuNgan.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Entity\Quanli\LichHen.resx">
       <DependentUpon>LichHen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entity\Quanli\ThuNgan.resx">
+      <DependentUpon>ThuNgan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

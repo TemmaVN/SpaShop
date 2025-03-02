@@ -474,13 +474,13 @@
             // temmaToolStripMenuItem
             // 
             this.temmaToolStripMenuItem.Name = "temmaToolStripMenuItem";
-            this.temmaToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.temmaToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.temmaToolStripMenuItem.Text = "Tài khoản";
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(147, 24);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             // 
             // thôngBáoToolStripMenuItem
@@ -499,25 +499,25 @@
             // lịchHẹnToolStripMenuItem
             // 
             this.lịchHẹnToolStripMenuItem.Name = "lịchHẹnToolStripMenuItem";
-            this.lịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
+            this.lịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.lịchHẹnToolStripMenuItem.Text = "Lịch hẹn";
             // 
             // hóaĐơnToolStripMenuItem
             // 
             this.hóaĐơnToolStripMenuItem.Name = "hóaĐơnToolStripMenuItem";
-            this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
+            this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.hóaĐơnToolStripMenuItem.Text = "Hóa đơn";
             // 
             // thẻDịchVụToolStripMenuItem
             // 
             this.thẻDịchVụToolStripMenuItem.Name = "thẻDịchVụToolStripMenuItem";
-            this.thẻDịchVụToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
+            this.thẻDịchVụToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.thẻDịchVụToolStripMenuItem.Text = "Thẻ dịch vụ";
             // 
             // khácToolStripMenuItem
             // 
             this.khácToolStripMenuItem.Name = "khácToolStripMenuItem";
-            this.khácToolStripMenuItem.Size = new System.Drawing.Size(155, 24);
+            this.khácToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.khácToolStripMenuItem.Text = "Khác";
             // 
             // QuanLims
@@ -1274,7 +1274,7 @@
             // 
             this.panel5.Location = new System.Drawing.Point(982, 7);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(270, 545);
+            this.panel5.Size = new System.Drawing.Size(270, 632);
             this.panel5.TabIndex = 9;
             // 
             // panel4

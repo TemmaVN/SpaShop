@@ -39,6 +39,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.NhoKhonglb = new System.Windows.Forms.Label();
             this.ThoatBT = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -64,7 +65,7 @@
             this.TenDangNhaplb.Location = new System.Drawing.Point(15, 15);
             this.TenDangNhaplb.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.TenDangNhaplb.Name = "TenDangNhaplb";
-            this.TenDangNhaplb.Size = new System.Drawing.Size(121, 21);
+            this.TenDangNhaplb.Size = new System.Drawing.Size(245, 43);
             this.TenDangNhaplb.TabIndex = 1;
             this.TenDangNhaplb.Text = "Tên đăng nhập";
             this.TenDangNhaplb.Click += new System.EventHandler(this.label1_Click);
@@ -76,7 +77,7 @@
             this.TenDangNhapTb.Location = new System.Drawing.Point(19, 50);
             this.TenDangNhapTb.Margin = new System.Windows.Forms.Padding(5);
             this.TenDangNhapTb.Name = "TenDangNhapTb";
-            this.TenDangNhapTb.Size = new System.Drawing.Size(437, 29);
+            this.TenDangNhapTb.Size = new System.Drawing.Size(437, 51);
             this.TenDangNhapTb.TabIndex = 0;
             this.TenDangNhapTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -98,7 +99,7 @@
             this.MatKhaulb.Location = new System.Drawing.Point(16, 15);
             this.MatKhaulb.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.MatKhaulb.Name = "MatKhaulb";
-            this.MatKhaulb.Size = new System.Drawing.Size(83, 21);
+            this.MatKhaulb.Size = new System.Drawing.Size(173, 43);
             this.MatKhaulb.TabIndex = 1;
             this.MatKhaulb.Text = "Mật Khẩu";
             // 
@@ -110,7 +111,7 @@
             this.MatKhauTb.Margin = new System.Windows.Forms.Padding(5);
             this.MatKhauTb.Name = "MatKhauTb";
             this.MatKhauTb.PasswordChar = '*';
-            this.MatKhauTb.Size = new System.Drawing.Size(437, 29);
+            this.MatKhauTb.Size = new System.Drawing.Size(437, 51);
             this.MatKhauTb.TabIndex = 0;
             // 
             // DangNhapBT
@@ -140,7 +141,7 @@
             this.NhoKhonglb.AutoSize = true;
             this.NhoKhonglb.Location = new System.Drawing.Point(34, 67);
             this.NhoKhonglb.Name = "NhoKhonglb";
-            this.NhoKhonglb.Size = new System.Drawing.Size(217, 21);
+            this.NhoKhonglb.Size = new System.Drawing.Size(445, 43);
             this.NhoKhonglb.TabIndex = 6;
             this.NhoKhonglb.Text = "Quên mật khẩu đăng nhập ?";
             // 
@@ -154,14 +155,24 @@
             this.ThoatBT.UseVisualStyleBackColor = true;
             this.ThoatBT.Click += new System.EventHandler(this.ThoatBT_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(686, 207);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 43F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(783, 523);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -192,6 +203,7 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button ThoatBT;
         private System.Windows.Forms.Label NhoKhonglb;
+        private System.Windows.Forms.Button button1;
     }
 }
 

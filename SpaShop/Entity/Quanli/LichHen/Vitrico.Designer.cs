@@ -1,6 +1,6 @@
 ﻿namespace SpaShop.Entity.Quanli.LichHen
 {
-    partial class ThoiGian
+    partial class Vitrico
     {
         /// <summary> 
         /// Required designer variable.
@@ -49,8 +49,7 @@
             this.ThoiGiandata.Name = "ThoiGiandata";
             this.ThoiGiandata.RowHeadersVisible = false;
             this.ThoiGiandata.Size = new System.Drawing.Size(728, 593);
-            this.ThoiGiandata.TabIndex = 0;
-            this.ThoiGiandata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.ThoiGiandata.TabIndex = 1;
             // 
             // Vitricho
             // 
@@ -78,14 +77,14 @@
             this.Ngaymot.Name = "Ngaymot";
             this.Ngaymot.Width = 150;
             // 
-            // ThoiGian
+            // Vitrico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.ThoiGiandata);
             this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.Name = "ThoiGian";
+            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.Name = "Vitrico";
             this.Size = new System.Drawing.Size(734, 599);
             ((System.ComponentModel.ISupportInitialize)(this.ThoiGiandata)).EndInit();
             this.ResumeLayout(false);

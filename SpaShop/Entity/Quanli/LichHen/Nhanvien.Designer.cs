@@ -30,7 +30,6 @@
         {
             this.ThoiGiandata = new System.Windows.Forms.DataGridView();
             this.Vitricho = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.Today = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayMai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Ngaymot = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,27 +42,22 @@
             this.ThoiGiandata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ThoiGiandata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Vitricho,
-            this.Column1,
             this.Today,
             this.NgayMai,
             this.Ngaymot});
             this.ThoiGiandata.Location = new System.Drawing.Point(3, 3);
             this.ThoiGiandata.Name = "ThoiGiandata";
-            this.ThoiGiandata.Size = new System.Drawing.Size(728, 561);
+            this.ThoiGiandata.RowHeadersVisible = false;
+            this.ThoiGiandata.Size = new System.Drawing.Size(728, 593);
             this.ThoiGiandata.TabIndex = 1;
             // 
             // Vitricho
             // 
             this.Vitricho.FillWeight = 150F;
-            this.Vitricho.HeaderText = "Vị trí chỗ";
+            this.Vitricho.HeaderText = "Nhân viên";
             this.Vitricho.Name = "Vitricho";
             this.Vitricho.ReadOnly = true;
             this.Vitricho.Width = 150;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
             // 
             // Today
             // 
@@ -91,7 +85,7 @@
             this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Nhanvien";
-            this.Size = new System.Drawing.Size(734, 567);
+            this.Size = new System.Drawing.Size(734, 599);
             ((System.ComponentModel.ISupportInitialize)(this.ThoiGiandata)).EndInit();
             this.ResumeLayout(false);
 
@@ -101,7 +95,6 @@
 
         private System.Windows.Forms.DataGridView ThoiGiandata;
         private System.Windows.Forms.DataGridViewTextBoxColumn Vitricho;
-        private System.Windows.Forms.DataGridViewComboBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Today;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayMai;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ngaymot;

@@ -70,6 +70,18 @@
     <Compile Include="Entity\Quanli\LichHen\ThoiGian.Designer.cs">
       <DependentUpon>ThoiGian.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entity\Quanli\LichHen\Vitrico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entity\Quanli\LichHen\Vitrico.Designer.cs">
+      <DependentUpon>Vitrico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Quanli\LichSu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entity\Quanli\LichSu.Designer.cs">
+      <DependentUpon>LichSu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entity\Quanli\ThuNgan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Entity\Quanli\LichHen\ThoiGian.resx">
       <DependentUpon>ThoiGian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entity\Quanli\LichHen\Vitrico.resx">
+      <DependentUpon>Vitrico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entity\Quanli\LichSu.resx">
+      <DependentUpon>LichSu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Entity\Quanli\ThuNgan.resx">
       <DependentUpon>ThuNgan.cs</DependentUpon>

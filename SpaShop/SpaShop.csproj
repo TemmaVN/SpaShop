@@ -58,6 +58,18 @@
     <Compile Include="Entity\Quanli\LichHen.Designer.cs">
       <DependentUpon>LichHen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entity\Quanli\LichHen\Nhanvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entity\Quanli\LichHen\Nhanvien.Designer.cs">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entity\Quanli\LichHen\ThoiGian.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entity\Quanli\LichHen\ThoiGian.Designer.cs">
+      <DependentUpon>ThoiGian.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entity\Quanli\ThuNgan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -83,6 +95,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Entity\Quanli\LichHen.resx">
       <DependentUpon>LichHen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entity\Quanli\LichHen\Nhanvien.resx">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entity\Quanli\LichHen\ThoiGian.resx">
+      <DependentUpon>ThoiGian.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Entity\Quanli\ThuNgan.resx">
       <DependentUpon>ThuNgan.cs</DependentUpon>

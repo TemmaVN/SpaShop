@@ -41,24 +41,30 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Chord = new System.Windows.Forms.RadioButton();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.NhanVienRD = new System.Windows.Forms.RadioButton();
+            this.ThoiGianRD = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button3);
@@ -167,6 +173,57 @@
             this.panel3.Size = new System.Drawing.Size(517, 566);
             this.panel3.TabIndex = 3;
             // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Location = new System.Drawing.Point(3, 45);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(511, 31);
+            this.panel4.TabIndex = 7;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(312, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 15);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Bấm để xem";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(261, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(52, 15);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "lịch hẹn:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(252, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(13, 15);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(184, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(71, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Hôm nay có";
+            // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
@@ -206,56 +263,54 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // label3
+            // Chord
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(184, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 15);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Hôm nay có";
+            this.Chord.AutoSize = true;
+            this.Chord.BackColor = System.Drawing.Color.LightGray;
+            this.Chord.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Chord.Location = new System.Drawing.Point(3, 3);
+            this.Chord.Name = "Chord";
+            this.Chord.Size = new System.Drawing.Size(106, 25);
+            this.Chord.TabIndex = 8;
+            this.Chord.TabStop = true;
+            this.Chord.Text = "Vị Trí chỗ";
+            this.Chord.UseVisualStyleBackColor = false;
             // 
-            // panel4
+            // panel5
             // 
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(3, 45);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(511, 31);
-            this.panel4.TabIndex = 7;
+            this.panel5.Controls.Add(this.ThoiGianRD);
+            this.panel5.Controls.Add(this.Chord);
+            this.panel5.Controls.Add(this.NhanVienRD);
+            this.panel5.Location = new System.Drawing.Point(293, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(326, 31);
+            this.panel5.TabIndex = 0;
             // 
-            // label4
+            // NhanVienRD
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(252, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 15);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "0";
+            this.NhanVienRD.AutoSize = true;
+            this.NhanVienRD.BackColor = System.Drawing.Color.LightGray;
+            this.NhanVienRD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.NhanVienRD.Location = new System.Drawing.Point(115, 3);
+            this.NhanVienRD.Name = "NhanVienRD";
+            this.NhanVienRD.Size = new System.Drawing.Size(102, 25);
+            this.NhanVienRD.TabIndex = 9;
+            this.NhanVienRD.TabStop = true;
+            this.NhanVienRD.Text = "Nhân viên";
+            this.NhanVienRD.UseVisualStyleBackColor = false;
             // 
-            // label5
+            // ThoiGianRD
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(261, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 15);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "lịch hẹn:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(312, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 15);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Bấm để xem";
+            this.ThoiGianRD.AutoSize = true;
+            this.ThoiGianRD.BackColor = System.Drawing.Color.LightGray;
+            this.ThoiGianRD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ThoiGianRD.Location = new System.Drawing.Point(223, 3);
+            this.ThoiGianRD.Name = "ThoiGianRD";
+            this.ThoiGianRD.Size = new System.Drawing.Size(98, 25);
+            this.ThoiGianRD.TabIndex = 10;
+            this.ThoiGianRD.TabStop = true;
+            this.ThoiGianRD.Text = "Thời gian";
+            this.ThoiGianRD.UseVisualStyleBackColor = false;
             // 
             // LichHen
             // 
@@ -279,6 +334,8 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -306,5 +363,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.RadioButton Chord;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.RadioButton ThoiGianRD;
+        private System.Windows.Forms.RadioButton NhanVienRD;
     }
 }

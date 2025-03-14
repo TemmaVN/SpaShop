@@ -50,6 +50,7 @@
             this.ThoiGiandata.RowHeadersVisible = false;
             this.ThoiGiandata.Size = new System.Drawing.Size(728, 593);
             this.ThoiGiandata.TabIndex = 1;
+            this.ThoiGiandata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ThoiGiandata_CellContentClick);
             // 
             // Vitricho
             // 

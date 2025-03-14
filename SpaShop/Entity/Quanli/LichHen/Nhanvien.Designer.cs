@@ -50,6 +50,7 @@
             this.ThoiGiandata.RowHeadersVisible = false;
             this.ThoiGiandata.Size = new System.Drawing.Size(728, 593);
             this.ThoiGiandata.TabIndex = 1;
+            this.ThoiGiandata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ThoiGiandata_CellContentClick);
             // 
             // Vitricho
             // 
@@ -83,7 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.ThoiGiandata);
             this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Nhanvien";
             this.Size = new System.Drawing.Size(734, 599);
             ((System.ComponentModel.ISupportInitialize)(this.ThoiGiandata)).EndInit();

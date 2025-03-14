@@ -16,5 +16,10 @@ namespace SpaShop.Entity.Quanli.LichHen
         {
             InitializeComponent();
         }
+
+        private void ThoiGiandata_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

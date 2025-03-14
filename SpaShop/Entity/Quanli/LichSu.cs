@@ -16,5 +16,10 @@ namespace SpaShop.Entity.Quanli
         {
             InitializeComponent();
         }
+
+        private void LichSu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

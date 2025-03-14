@@ -19,7 +19,7 @@ namespace SpaShop.Entity.Quanli
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
+            //dm thg nguyen nha
         }
 
         private void label2_Click(object sender, EventArgs e)

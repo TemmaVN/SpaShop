@@ -31,6 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LichHen));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.ThoiGianRD = new System.Windows.Forms.RadioButton();
+            this.Chord = new System.Windows.Forms.RadioButton();
+            this.NhanVienRD = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,16 +53,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.Chord = new System.Windows.Forms.RadioButton();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.NhanVienRD = new System.Windows.Forms.RadioButton();
-            this.ThoiGianRD = new System.Windows.Forms.RadioButton();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,6 +76,55 @@
             this.panel1.Size = new System.Drawing.Size(1258, 40);
             this.panel1.TabIndex = 0;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.ThoiGianRD);
+            this.panel5.Controls.Add(this.Chord);
+            this.panel5.Controls.Add(this.NhanVienRD);
+            this.panel5.Location = new System.Drawing.Point(293, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(326, 31);
+            this.panel5.TabIndex = 0;
+            // 
+            // ThoiGianRD
+            // 
+            this.ThoiGianRD.AutoSize = true;
+            this.ThoiGianRD.BackColor = System.Drawing.Color.LightGray;
+            this.ThoiGianRD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ThoiGianRD.Location = new System.Drawing.Point(223, 3);
+            this.ThoiGianRD.Name = "ThoiGianRD";
+            this.ThoiGianRD.Size = new System.Drawing.Size(149, 37);
+            this.ThoiGianRD.TabIndex = 10;
+            this.ThoiGianRD.TabStop = true;
+            this.ThoiGianRD.Text = "Thời gian";
+            this.ThoiGianRD.UseVisualStyleBackColor = false;
+            // 
+            // Chord
+            // 
+            this.Chord.AutoSize = true;
+            this.Chord.BackColor = System.Drawing.Color.LightGray;
+            this.Chord.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Chord.Location = new System.Drawing.Point(3, 3);
+            this.Chord.Name = "Chord";
+            this.Chord.Size = new System.Drawing.Size(156, 37);
+            this.Chord.TabIndex = 8;
+            this.Chord.TabStop = true;
+            this.Chord.Text = "Vị Trí chỗ";
+            this.Chord.UseVisualStyleBackColor = false;
+            // 
+            // NhanVienRD
+            // 
+            this.NhanVienRD.AutoSize = true;
+            this.NhanVienRD.BackColor = System.Drawing.Color.LightGray;
+            this.NhanVienRD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.NhanVienRD.Location = new System.Drawing.Point(115, 3);
+            this.NhanVienRD.Name = "NhanVienRD";
+            this.NhanVienRD.Size = new System.Drawing.Size(157, 37);
+            this.NhanVienRD.TabIndex = 9;
+            this.NhanVienRD.TabStop = true;
+            this.NhanVienRD.Text = "Nhân viên";
+            this.NhanVienRD.UseVisualStyleBackColor = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -92,7 +141,7 @@
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Location = new System.Drawing.Point(64, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 21);
+            this.label1.Size = new System.Drawing.Size(114, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "Lịch hẹn";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -115,7 +164,7 @@
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(855, 3);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(285, 29);
+            this.dateTimePicker1.Size = new System.Drawing.Size(285, 40);
             this.dateTimePicker1.TabIndex = 3;
             // 
             // button2
@@ -152,7 +201,7 @@
             this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
             this.label2.Location = new System.Drawing.Point(398, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 21);
+            this.label2.Size = new System.Drawing.Size(0, 33);
             this.label2.TabIndex = 1;
             // 
             // panel2
@@ -192,7 +241,7 @@
             this.label6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(312, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 15);
+            this.label6.Size = new System.Drawing.Size(107, 22);
             this.label6.TabIndex = 9;
             this.label6.Text = "Bấm để xem";
             // 
@@ -202,7 +251,7 @@
             this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(261, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 15);
+            this.label5.Size = new System.Drawing.Size(78, 22);
             this.label5.TabIndex = 8;
             this.label5.Text = "lịch hẹn:";
             // 
@@ -212,7 +261,7 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(252, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 15);
+            this.label4.Size = new System.Drawing.Size(20, 22);
             this.label4.TabIndex = 7;
             this.label4.Text = "0";
             // 
@@ -222,7 +271,7 @@
             this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(184, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 15);
+            this.label3.Size = new System.Drawing.Size(104, 22);
             this.label3.TabIndex = 6;
             this.label3.Text = "Hôm nay có";
             // 
@@ -240,7 +289,7 @@
             "Không Đến"});
             this.comboBox1.Location = new System.Drawing.Point(361, 10);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(153, 29);
+            this.comboBox1.Size = new System.Drawing.Size(153, 41);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.Text = "Trạng thái";
             // 
@@ -257,66 +306,18 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(3, 10);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(309, 29);
+            this.textBox1.Size = new System.Drawing.Size(309, 40);
             this.textBox1.TabIndex = 0;
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // Chord
-            // 
-            this.Chord.AutoSize = true;
-            this.Chord.BackColor = System.Drawing.Color.LightGray;
-            this.Chord.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Chord.Location = new System.Drawing.Point(3, 3);
-            this.Chord.Name = "Chord";
-            this.Chord.Size = new System.Drawing.Size(106, 25);
-            this.Chord.TabIndex = 8;
-            this.Chord.TabStop = true;
-            this.Chord.Text = "Vị Trí chỗ";
-            this.Chord.UseVisualStyleBackColor = false;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.ThoiGianRD);
-            this.panel5.Controls.Add(this.Chord);
-            this.panel5.Controls.Add(this.NhanVienRD);
-            this.panel5.Location = new System.Drawing.Point(293, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(326, 31);
-            this.panel5.TabIndex = 0;
-            // 
-            // NhanVienRD
-            // 
-            this.NhanVienRD.AutoSize = true;
-            this.NhanVienRD.BackColor = System.Drawing.Color.LightGray;
-            this.NhanVienRD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.NhanVienRD.Location = new System.Drawing.Point(115, 3);
-            this.NhanVienRD.Name = "NhanVienRD";
-            this.NhanVienRD.Size = new System.Drawing.Size(102, 25);
-            this.NhanVienRD.TabIndex = 9;
-            this.NhanVienRD.TabStop = true;
-            this.NhanVienRD.Text = "Nhân viên";
-            this.NhanVienRD.UseVisualStyleBackColor = false;
-            // 
-            // ThoiGianRD
-            // 
-            this.ThoiGianRD.AutoSize = true;
-            this.ThoiGianRD.BackColor = System.Drawing.Color.LightGray;
-            this.ThoiGianRD.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ThoiGianRD.Location = new System.Drawing.Point(223, 3);
-            this.ThoiGianRD.Name = "ThoiGianRD";
-            this.ThoiGianRD.Size = new System.Drawing.Size(98, 25);
-            this.ThoiGianRD.TabIndex = 10;
-            this.ThoiGianRD.TabStop = true;
-            this.ThoiGianRD.Text = "Thời gian";
-            this.ThoiGianRD.UseVisualStyleBackColor = false;
-            // 
             // LichHen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
@@ -328,15 +329,16 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "LichHen";
             this.Size = new System.Drawing.Size(1264, 651);
+            this.Load += new System.EventHandler(this.LichHen_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

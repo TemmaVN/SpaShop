@@ -36,5 +36,10 @@ namespace SpaShop.Entity.Quanli
         {
 
         }
+
+        private void LichHen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

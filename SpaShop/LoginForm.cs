@@ -36,14 +36,14 @@ namespace SpaShop
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //if (TenDangNhapTb.Text == "TemmaVN" && MatKhauTb.Text == "Khoitoc123")
+            if (TenDangNhapTb.Text == "TemmaVN" && MatKhauTb.Text == "Khoitoc123")
             {
                 QuanLi quanLi = new QuanLi();
                 this.Hide();
                 quanLi.ShowDialog();
                 this.Show();
             }
-            //else
+            else
             {
                 MessageBox.Show("Nhập sai tên đăng nhập hoặc mật khẩu!!");
             }
